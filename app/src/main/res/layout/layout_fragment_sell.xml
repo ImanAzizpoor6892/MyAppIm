@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:layout_marginBottom="30dp">
+  <include
+    layout="@layout/layout_day_stat"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:layout_gravity="top"
+    android:layout_marginBottom="25dp">
+  </include>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/recycler_sell"
+      android:layout_marginTop="60dp"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" />
+
+    <include
+      layout="@layout/layout_add_sell"
+      android:layout_width="match_parent"
+      android:layout_height="160dp"
+      android:layout_gravity="bottom"
+      android:layout_marginBottom="25dp">
+
+    </include>
+
+
+</FrameLayout>

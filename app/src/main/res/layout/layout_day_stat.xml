@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="60dp"
+  android:background="@color/colorWhiteMilk"
+  android:orientation="vertical">
+
+
+  <TextView
+    android:id="@+id/tv_info1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="سود "
+    android:textSize="10sp"
+    app:layout_constraintBottom_toBottomOf="@+id/tv_info2"
+    app:layout_constraintEnd_toEndOf="@+id/tv_show_sod"
+    app:layout_constraintStart_toStartOf="@+id/tv_show_sod"
+    app:layout_constraintTop_toTopOf="@+id/tv_info2" />
+
+  <TextView
+    android:id="@+id/tv_show_sod"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="44dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/tv_info1" />
+
+  <TextView
+    android:id="@+id/tv_info2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="92dp"
+    android:layout_marginEnd="91dp"
+    android:text="تخفیفات"
+    android:textSize="10sp"
+    app:layout_constraintBottom_toBottomOf="@+id/tv_info3"
+    app:layout_constraintEnd_toStartOf="@+id/tv_show_nums"
+    app:layout_constraintStart_toStartOf="@+id/tv_info1"
+    app:layout_constraintTop_toTopOf="@+id/tv_info3" />
+
+  <TextView
+    android:id="@+id/tv_info3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="148dp"
+    android:text="تعداد کل"
+    android:textSize="10sp"
+    app:layout_constraintBottom_toBottomOf="@+id/tv_info4"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="@+id/tv_info4" />
+
+  <TextView
+    android:id="@+id/tv_info4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="11dp"
+    android:layout_marginEnd="36dp"
+    android:text="فروش کل"
+    android:textSize="10dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+    android:id="@+id/tv_show_offers"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="@+id/tv_info2"
+    app:layout_constraintStart_toStartOf="@+id/tv_info2"
+    app:layout_constraintTop_toBottomOf="@+id/tv_info2" />
+
+  <TextView
+    android:id="@+id/tv_show_nums"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="@+id/tv_info3"
+    app:layout_constraintStart_toStartOf="@+id/tv_info3"
+    app:layout_constraintTop_toBottomOf="@+id/tv_info3" />
+
+  <TextView
+    android:id="@+id/tv_show_result_day"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="@+id/tv_info4"
+    app:layout_constraintStart_toStartOf="@+id/tv_info4"
+    app:layout_constraintTop_toBottomOf="@+id/tv_info4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

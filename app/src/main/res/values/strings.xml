@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My App Im</string>
+    <string name="nav_sell">Sell</string>
+    <string name="nav_buyer">Buyer</string>
+    <string name="nav_store">Store</string>
+    <string name="nav_status">Status</string>
+    <string name="nav_setting">Setting</string>
+    <string name="txt_name">Name</string>
+</resources>
